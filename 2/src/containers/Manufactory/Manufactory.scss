@@ -1,0 +1,63 @@
+#Manufactory {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#Manufactory td, #Manufactory th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#Manufactory tr:nth-child(even){background-color: #f2f2f2;}
+
+#Manufactory tr:hover {background-color: #ddd;}
+
+#Manufactory th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #0A2647;
+  color: white;
+}
+
+.modal-Manufactory-container {
+  .modal-content {
+    .modal-header {
+      button {
+        background-color: transparent;
+        color: white;
+        border: none;
+        font-size: 27px;
+      }
+    }
+  }
+
+
+  .modal-Manufactory-body {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+
+    .input-container {
+      display: flex;
+      flex-direction: column;
+      width: 49%;
+
+      &.max-width-input {
+        width: 100%;
+      }
+    }
+
+    input {
+      border-radius: 3px;
+      height: 30px;
+      border: 1px solid grey;
+      outline: none;
+      padding: 0 10px;
+    }
+    
+  }
+
+
+}

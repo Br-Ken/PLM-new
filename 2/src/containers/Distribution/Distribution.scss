@@ -1,0 +1,64 @@
+#Distribution {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #Distribution td, #Distribution th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Distribution tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Distribution tr:hover {background-color: #ddd;}
+  
+  #Distribution th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #0A2647;
+    color: white;
+  }
+
+  .modal-Distribution-container {
+    .modal-content {
+      .modal-header {
+        button {
+          background-color: transparent;
+          color: white;
+          border: none;
+          font-size: 27px;
+        }
+      }
+    }
+  
+
+    .modal-Distribution-body {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+
+
+      .input-container {
+        display: flex;
+        flex-direction: column;
+        width: 49%;
+
+        &.max-width-input {
+          width: 100%;
+        }
+      }
+  
+      input {
+        border-radius: 3px;
+        height: 30px;
+        border: 1px solid grey;
+        outline: none;
+        padding: 0 10px;
+      }
+      
+    }
+
+
+  }
